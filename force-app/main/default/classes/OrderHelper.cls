@@ -43,9 +43,8 @@ public class OrderHelper{
         }
         
         //ToDo: Perform an update on the records in the productMap
-        if(productMap != null && productMap.size() < 0){
+        if(productMap != null && !productMap.isEmpty()){
             update productMap.values();
         }
     }
-
 }
