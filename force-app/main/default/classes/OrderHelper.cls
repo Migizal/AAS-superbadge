@@ -43,7 +43,7 @@ public class OrderHelper{
         }
         
         //ToDo: Perform an update on the records in the productMap
-        if(productMap != null && !productMap.isEmpty()){ //Changes for Dev 2
+        if(productMap != null && !productMap.isEmpty()){ //Changes from Dev 2
             update productMap.values();
         }
     }
